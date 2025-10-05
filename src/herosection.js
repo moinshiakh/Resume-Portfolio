@@ -50,6 +50,9 @@ const HeroSection = () => {
             {/* Left Content */}
             <div className={`hero-left ${isVisible ? 'visible' : ''}`}>
               <h1 className="hero-title">Hello. I am Moin</h1>
+              <button className="get-started-btn">
+                Professional Summary
+              </button>
               <p className="hero-description">
                 I'm a creative and detail-oriented Front-End Developer with 4.5 years of 
                 experience building responsive, accessible, and user-focused websites. My 
@@ -57,9 +60,7 @@ const HeroSection = () => {
                 scalable web apps and CMS solutions, working with tools like WordPress, 
                 Tailwind CSS, GitHub, and Firebase.
               </p>
-              <button className="get-started-btn">
-                Get Started
-              </button>
+              
             </div>
 
             {/* Right Content - Image */}
