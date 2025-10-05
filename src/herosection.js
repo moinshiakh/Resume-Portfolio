@@ -61,6 +61,9 @@ const HeroSection = () => {
                 Tailwind CSS, GitHub, and Firebase.
               </p>
 
+              <span className="award-icon">🏆</span>
+                <span className="award-line">Recognized for achieving 3× sales acceleration across B2B & B2C markets (Turkey, Middle East, USA, Italy)</span>
+
               {/* Social Icons */}
               <div className={`social-icons ${isVisible ? 'visible' : ''}`}>
                 <a 

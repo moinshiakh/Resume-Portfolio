@@ -406,6 +406,13 @@
             color: #4b5563;
             margin-bottom: 2rem;
             max-width: 500px;
+            text-align: justify; 
+            text-justify: inter-word;
+          }
+
+          .award-line{
+            text-align: justify; 
+            text-justify: inter-word;
           }
 
           .get-started-btn {
@@ -682,6 +689,8 @@
               max-width: 100%;
               margin-left: auto;
               margin-right: auto;
+              text-align: justify;
+              text-justify: inter-word;
             }
 
             .live-projects-btn {
@@ -707,6 +716,8 @@
 
             .hero-description {
               font-size: 0.95rem;
+              text-align: justify;
+               text-justify: inter-word;
             }
 
             .live-projects-btn {
@@ -735,6 +746,8 @@
 
             .hero-description {
               font-size: 0.9rem;
+              text-align: justify; 
+              text-justify: inter-word;
             }
 
             .get-started-btn {
@@ -900,6 +913,8 @@
           /* Right Side - Text Content */
           .integration-text {
             max-width: 500px;
+            text-align: justify; 
+            text-justify: inter-word;
           }
 
           .integration-label {
@@ -943,6 +958,8 @@
 
             .integration-text {
               text-align: center;
+              text-align: justify;
+              text-justify: inter-word;
             }
 
             .integration-label {
