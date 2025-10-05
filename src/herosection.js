@@ -39,7 +39,7 @@ const HeroSection = () => {
   return (
     <>
      
-      <section className="hero-section">
+      <section className="hero-section" id='home'>
         <div className="hero-container">
           {/* Live Projects Button */}
           <button className={`live-projects-btn ${isVisible ? 'visible' : ''}`}>

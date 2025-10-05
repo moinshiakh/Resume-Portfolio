@@ -25,7 +25,7 @@ const TechnologySection = () => {
   return (
     <>
       
-      <section className="integration-section">
+      <section className="integration-section" id="technology">
         <div className="integration-container">
           {/* Main Content */}
           <div className={`integration-content ${isVisible ? 'visible' : ''}`}>
@@ -52,7 +52,7 @@ const TechnologySection = () => {
 
             {/* Right Side - Text Content */}
             <div className="integration-text">
-              <div className="integration-label">SKILLS ICON</div>
+              {/* <div className="integration-label">SKILLS ICON</div> */}
               <h2 className="integration-title">TECHNICAL SKILLS</h2>
               <p className="integration-description">
                  <ol type="I">
