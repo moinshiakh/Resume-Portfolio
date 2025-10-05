@@ -497,6 +497,71 @@
             opacity: 1;
           }
 
+           /* Social Icons */
+          .social-icons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+            justify-content: flex-start;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.8s ease;
+          }
+
+          .social-icons.visible {
+            opacity: 1;
+            transform: translateY(0);
+            transition-delay: 0.6s;
+          }
+
+          .social-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            color: #4b5563;
+            text-decoration: none;
+            font-size: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+          }
+
+          .social-icon:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+          }
+
+          .social-icon.email {
+            color: #ef4444;
+          }
+
+          .social-icon.email:hover {
+            background: #ef4444;
+            color: white;
+          }
+
+          .social-icon.github {
+            color: #1f2937;
+          }
+
+          .social-icon.github:hover {
+            background: #1f2937;
+            color: white;
+          }
+
+          .social-icon.linkedin {
+            color: #0077b5;
+          }
+
+          .social-icon.linkedin:hover {
+            background: #0077b5;
+            color: white;
+          }
+
           /* Image Loading Placeholder */
           .image-placeholder {
             position: absolute;
@@ -578,6 +643,19 @@
             right: -2%;
             animation-delay: 1.5s;
           }
+
+          .summary-tag {
+              display: inline-block;
+              background: linear-gradient(90deg, #a855f7, #7e22ce);
+              color: white;
+              font-weight: 600;
+              padding: 12px 28px;
+              border-radius: 9999px;
+              font-family: 'Inter', sans-serif;
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+              cursor: default; /* no pointer cursor */
+              user-select: none;
+            }
 
           /* Responsive Styles */
           @media (max-width: 991.98px) {
