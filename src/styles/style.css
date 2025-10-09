@@ -1028,4 +1028,283 @@
             }
           }
         
+          /* Portfolio section */
+          
+          
+          * {
+            box-sizing: border-box;
+          }
+
+          .carousel-section {
+            padding: 4rem 0;
+            background: linear-gradient(135deg, #e0e7ff 0%, #ddd6fe 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+          }
+
+          .carousel-header {
+            text-align: center;
+            margin-bottom: 3rem;
+          }
+
+          .carousel-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #1f2937;
+            margin-bottom: 0.5rem;
+          }
+
+          .carousel-subtitle {
+            font-size: 1.1rem;
+            color: #6b7280;
+          }
+
+          /* Carousel Container */
+          .three-card-carousel {
+            position: relative;
+            padding: 0 60px;
+          }
+
+          .carousel-wrapper {
+            overflow: hidden;
+            border-radius: 15px;
+          }
+
+          .carousel-slides {
+            position: relative;
+            min-height: 500px;
+          }
+
+          .carousel-slide {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            pointer-events: none;
+          }
+
+          .carousel-slide.active {
+            opacity: 1;
+            pointer-events: auto;
+          }
+
+          /* Card Styles */
+          .service-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+          }
+
+          .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+          }
+
+          .card-image-wrapper {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+          }
+
+          .card-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+          }
+
+          .service-card:hover .card-image {
+            transform: scale(1.1);
+          }
+
+          .card-icon {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            width: 50px;
+            height: 50px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          }
+
+          .card-body {
+            padding: 1.5rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+          }
+
+          .card-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 0.75rem;
+          }
+
+          .card-description {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #6b7280;
+            margin-bottom: 1.25rem;
+            flex: 1;
+          }
+
+          .card-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            align-self: flex-start;
+          }
+
+          .card-button:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 8px rgba(102, 126, 234, 0.4);
+          }
+
+          /* Navigation Controls */
+          .carousel-control {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: white;
+            border: none;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            z-index: 10;
+            font-size: 24px;
+            color: #1f2937;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          }
+
+          .carousel-control:hover {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            transform: translateY(-50%) scale(1.1);
+          }
+
+          .carousel-control-prev {
+            left: 0;
+          }
+
+          .carousel-control-next {
+            right: 0;
+          }
+
+          /* Responsive Styles */
+          @media (max-width: 991.98px) {
+            .three-card-carousel {
+              padding: 0 50px;
+            }
+          }
+
+          @media (max-width: 767.98px) {
+            .carousel-title {
+              font-size: 2rem;
+            }
+
+            .carousel-subtitle {
+              font-size: 1rem;
+            }
+
+            .three-card-carousel {
+              padding: 0 50px;
+            }
+
+            .carousel-slides {
+              min-height: 450px;
+            }
+
+            .carousel-control {
+              width: 45px;
+              height: 45px;
+              font-size: 22px;
+            }
+
+            .card-image-wrapper {
+              height: 180px;
+            }
+
+            .card-title {
+              font-size: 1.35rem;
+            }
+
+            .card-description {
+              font-size: 0.9rem;
+            }
+
+            .card-body {
+              padding: 1.25rem;
+            }
+          }
+
+          @media (max-width: 575.98px) {
+            .carousel-section {
+              padding: 2rem 0;
+            }
+
+            .carousel-header {
+              margin-bottom: 2rem;
+            }
+
+            .carousel-title {
+              font-size: 1.75rem;
+            }
+
+            .three-card-carousel {
+              padding: 0 45px;
+            }
+
+            .carousel-slides {
+              min-height: 420px;
+            }
+
+            .carousel-control {
+              width: 40px;
+              height: 40px;
+              font-size: 20px;
+            }
+
+            .card-image-wrapper {
+              height: 160px;
+            }
+
+            .card-title {
+              font-size: 1.25rem;
+            }
+
+            .card-description {
+              font-size: 0.85rem;
+            }
+
+            .card-body {
+              padding: 1rem;
+            }
+          }
+      
     

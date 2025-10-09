@@ -55,10 +55,11 @@ useEffect(() => {
                     {/* Desktop Navigation */}
                     <div className="desktop-nav">
                         <ul className="nav-menu">
-                            <li><a className="nav-link" href="#home">HOME</a></li>
-                            <li><a className="nav-link" href="#technology">SKILLS</a></li>
-                            <li><a className="nav-link" href="#features">Menu 3</a></li>
-                            <li><a className="nav-link" href="#about">Menu 4</a></li>
+                            <li><a className="nav-link" href="#home">Home</a></li>
+                            <li><a className="nav-link" href="#technology">Skills</a></li>
+                            <li><a className="nav-link" href="#porfolio">Portfolios</a></li>
+                            <li><a className="nav-link" href="#EdEx">Education & Experience</a></li>
+                            <li><a className="nav-link" href="#contact">Contact</a></li>
                         </ul>
                         
                     </div>
