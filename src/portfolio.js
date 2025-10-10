@@ -93,10 +93,11 @@ const ThreeCardCarousel = () => {
       for (let i = 0; i < allCards.length; i += 3) {
         slides.push(allCards.slice(i, i + 3));
       }
+      
       return slides;
     }
   };
-
+  
   const slides = getSlides();
   const totalSlides = slides.length;
 
