@@ -4,6 +4,7 @@ import { Navigation } from './Nav';
 import HeroSection from './herosection';
 import TechnologySection from './technology';
 import ThreeCardCarousel from './portfolio';
+import ExperienceEducation from './Edu_Exp';
 
 
 export function App() {
@@ -13,6 +14,7 @@ return <>
 <HeroSection/>
 <TechnologySection/>
 <ThreeCardCarousel/>
+<ExperienceEducation/>
 </>
 
 

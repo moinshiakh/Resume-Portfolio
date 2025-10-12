@@ -57,7 +57,7 @@ useEffect(() => {
                         <ul className="nav-menu">
                             <li><a className="nav-link" href="#home">Home</a></li>
                             <li><a className="nav-link" href="#technology">Skills</a></li>
-                            <li><a className="nav-link" href="#porfolio">Portfolios</a></li>
+                            <li><a className="nav-link" href="#portfolio">Portfolios</a></li>
                             <li><a className="nav-link" href="#EdEx">Education & Experience</a></li>
                             <li><a className="nav-link" href="#contact">Contact</a></li>
                         </ul>

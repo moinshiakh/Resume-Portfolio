@@ -122,7 +122,7 @@ const ThreeCardCarousel = () => {
   return (
     <>
      
-      <section className="carousel-section">
+      <section className="carousel-section" id='portfolio'>
         <div className="container">
           {/* Header */}
           <div className="carousel-header">
