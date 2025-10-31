@@ -19,54 +19,54 @@ const ExperienceEducation = () => {
   const experienceData = [
     {
       id: 1,
-      title: "Senior Frontend Developer",
-      company: "Tech Solutions Inc.",
-      location: "San Francisco, CA",
-      period: "2021 - Present",
-      description: "Leading a team of 5 developers in building responsive web applications using React.js, TypeScript, and modern CSS frameworks.",
-      skills: ["React.js", "TypeScript", "Redux", "CSS3"],
+      title: "Web Developer",
+      company: "1 Source BPO .",
+      location: "Mumbai",
+      period: "2024 - 2025",
+      description: "FrontEnd developers in building responsive web applications using React.js, TypeScript, and modern CSS frameworks.",
+      skills: ["React.js", "TypeScript", "Javascript", "CSS3"],
       icon: "💼",
       color: "#667eea"
     },
     {
       id: 2,
-      title: "Frontend Developer",
-      company: "Digital Innovations Ltd.",
-      location: "New York, NY",
-      period: "2019 - 2021",
+      title: "Frontend CMS Developer",
+      company: "Trigent Software Solution",
+      location: "Mumbai",
+      period: "2021 - 2024",
       description: "Developed and maintained multiple client-facing web applications. Collaborated with UX designers to implement pixel-perfect designs.",
-      skills: ["JavaScript", "React.js", "SASS", "Bootstrap"],
+      skills: ["JavaScript", "CMS", "Frontend", "Bootstrap"],
       icon: "💻",
       color: "#764ba2"
     },
     {
       id: 3,
-      title: "Junior Web Developer",
-      company: "StartUp Hub",
-      location: "Austin, TX",
-      period: "2017 - 2019",
+      title: "Web Developer",
+      company: "HypeBrand Pvt Ltd.",
+      location: "Mumbai",
+      period: "2021 - 2021 (6 Month)",
       description: "Built responsive websites and web applications for various clients. Worked with cross-functional teams to deliver projects on time.",
-      skills: ["HTML5", "CSS3", "JavaScript", "jQuery"],
+      skills: ["HTML5", "CSS3", "JavaScript", "WordPress", "PHP", "MySQL"],
       icon: "🚀",
       color: "#f093fb"
     },
     {
       id: 4,
-      title: "Web Development Intern",
-      company: "Creative Agency",
-      location: "Los Angeles, CA",
-      period: "2016 - 2017",
+      title: "Web Developer",
+      company: "MilesAhead Tech Pvt Ltd.",
+      location: "Mumbai",
+      period: "2019 - 2021",
       description: "Assisted in developing client websites and learning modern web development practices and workflows.",
-      skills: ["HTML", "CSS", "JavaScript", "WordPress"],
+      skills: ["HTML", "CSS", "JavaScript", "WordPress", "PHP", "MySQL"],
       icon: "📱",
       color: "#4facfe"
     },
     {
       id: 5,
-      title: "Freelance Developer",
-      company: "Self-Employed",
-      location: "Remote",
-      period: "2015 - 2016",
+      title: "Web Developer",
+      company: "3 Star IT Solution",
+      location: "Mumbai",
+      period: "2017 - 2018",
       description: "Created custom websites for small businesses and startups. Managed projects from design to deployment.",
       skills: ["Web Design", "PHP", "MySQL", "SEO"],
       icon: "🎨",
@@ -74,12 +74,12 @@ const ExperienceEducation = () => {
     },
     {
       id: 6,
-      title: "UI/UX Designer",
-      company: "Design Studio",
-      location: "Seattle, WA",
-      period: "2014 - 2015",
-      description: "Designed user interfaces and experiences for web and mobile applications using industry-standard tools.",
-      skills: ["Figma", "Adobe XD", "Sketch", "Prototyping"],
+      title: "Business",
+      company: "RIJMI Engineering Works",
+      location: "Mumbai",
+      period: "2014 - 2017",
+      description: "Verified suppliers adherence to contract specifications, quality of material delivered, and schedules of delivery.",
+      skills: ["Other"],
       icon: "🎯",
       color: "#fa709a"
     }
@@ -89,76 +89,44 @@ const ExperienceEducation = () => {
   const educationData = [
     {
       id: 1,
-      degree: "Master of Computer Science",
-      institution: "Stanford University",
-      location: "Stanford, CA",
-      period: "2015 - 2017",
-      description: "Specialized in Software Engineering and Web Technologies. Completed thesis on Modern Web Application Architecture.",
-      achievements: ["GPA: 3.8/4.0", "Dean's List", "Research Assistant"],
+      degree: "Bachelor in Information Technology",
+      institution: "Shivaji University",
+      location: "Kolhapur",
+      period: "2010 - 2014",
+      description: "Comprehensive study of computer science fundamentals including Web structures, and software engineering.",
+      achievements: ["GPA: 6.0/10.0"],
       icon: "🎓",
       color: "#667eea"
     },
     {
       id: 2,
-      degree: "Bachelor of Computer Science",
-      institution: "University of California",
-      location: "Berkeley, CA",
-      period: "2011 - 2015",
+      degree: "Diploma in Computer Technology",
+      institution: "University of Mumbai",
+      location: "Karad - Satara",
+      period: "2007 - 2010",
       description: "Comprehensive study of computer science fundamentals including algorithms, data structures, and software engineering.",
-      achievements: ["GPA: 3.6/4.0", "Honor Society", "Club President"],
+      achievements: ["GPA: 7.0/10.0",],
       icon: "📚",
       color: "#764ba2"
     },
     {
       id: 3,
-      degree: "Web Development Bootcamp",
-      institution: "Code Academy",
+      degree: "Java FullStack Developer",
+      institution: "IT Vedant Academy",
       location: "Online",
-      period: "2016",
-      description: "Intensive 12-week program focused on full-stack web development, covering modern frameworks and best practices.",
-      achievements: ["Top 10% Graduate", "Project Award", "100% Completion"],
+      period: "2025-2026",
+      description: "Intensive 12 Month program focused on full-stack web development, covering modern frameworks and best practices.",
+      achievements: ["React Certificate", "Web Essential Certificate", "MySQL Certificate"],
       icon: "💡",
       color: "#f093fb"
     },
-    {
-      id: 4,
-      degree: "Advanced JavaScript Certification",
-      institution: "Udemy",
-      location: "Online",
-      period: "2018",
-      description: "Deep dive into advanced JavaScript concepts including ES6+, async programming, and performance optimization.",
-      achievements: ["Certificate of Excellence", "5-star Rating", "Final Project A+"],
-      icon: "📜",
-      color: "#4facfe"
-    },
-    {
-      id: 5,
-      degree: "React Specialization",
-      institution: "Coursera",
-      location: "Online",
-      period: "2019",
-      description: "Comprehensive React training covering hooks, context, Redux, and building scalable applications.",
-      achievements: ["Verified Certificate", "Honor Code", "Peer Reviewed"],
-      icon: "⚛️",
-      color: "#43e97b"
-    },
-    {
-      id: 6,
-      degree: "UI/UX Design Certificate",
-      institution: "Google UX Design",
-      location: "Online",
-      period: "2020",
-      description: "Professional certificate program covering user research, wireframing, prototyping, and usability testing.",
-      achievements: ["Professional Certificate", "Portfolio Projects", "Case Studies"],
-      icon: "🎨",
-      color: "#fa709a"
-    }
+    
   ];
 
   return (
     <>
       
-      <section className="experience-education-section">
+      <section className="experience-education-section" id='EdEx'>
         <div className="container">
           {/* Header */}
           <div className="section-header">

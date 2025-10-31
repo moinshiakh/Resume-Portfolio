@@ -84,17 +84,20 @@ useEffect(() => {
                 {/* Mobile Menu */}
                 <div className={`mobile-menu ${isMenuOpen ? 'show' : ''}`}>
                     <div className="mobile-nav-links">
-                        <a className="mobile-nav-link" href="#business" onClick={closeMenu}>
-                            Business
+                        <a className="mobile-nav-link" href="#home" onClick={closeMenu}>
+                            Home
                         </a>
-                        <a className="mobile-nav-link" href="#pricing" onClick={closeMenu}>
-                            Pricing
+                        <a className="mobile-nav-link" href="#technology" onClick={closeMenu}>
+                            Skills
                         </a>
-                        <a className="mobile-nav-link" href="#features" onClick={closeMenu}>
-                            Features
+                        <a className="mobile-nav-link" href="#portfolio" onClick={closeMenu}>
+                            Portfolios
                         </a>
-                        <a className="mobile-nav-link" href="#about" onClick={closeMenu}>
-                            About
+                        <a className="mobile-nav-link" href="#EdEx" onClick={closeMenu}>
+                            Education & Experience
+                        </a>
+                        <a className="mobile-nav-link" href="#contact" onClick={closeMenu}>
+                            Contact
                         </a>
                     
                     </div>

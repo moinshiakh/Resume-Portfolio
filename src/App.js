@@ -5,6 +5,12 @@ import HeroSection from './herosection';
 import TechnologySection from './technology';
 import ThreeCardCarousel from './portfolio';
 import ExperienceEducation from './Edu_Exp';
+import ContactPage from './contact';
+import Footer from './footer';
+
+
+
+
 
 
 export function App() {
@@ -15,6 +21,8 @@ return <>
 <TechnologySection/>
 <ThreeCardCarousel/>
 <ExperienceEducation/>
+<ContactPage/>
+<Footer/>
 </>
 
 
