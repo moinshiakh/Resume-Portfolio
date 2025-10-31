@@ -22,7 +22,9 @@ Contact form or contact details for networking and opportunities.
 
 Fast load speed via the Vercel platform.
 
+
 **** Built With ****
+
 
 HTML5 & CSS3 (BootStrap 5 CSS framework)
 
