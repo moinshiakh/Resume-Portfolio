@@ -19,65 +19,65 @@ const ThreeCardCarousel = () => {
   const allCards = [
     {
       id: 1,
-      title: "Database Design",
-      description: "Designing efficient database structures for optimal performance.",
-      image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop",
+      title: "Hybrid Agro",
+      description: "Hybrid is the result of two great companies, combining to serve the Agriculture Industry. The other, solidified in digital print, technology, branding, and marketing strategy. ",
+      image: process.env.PUBLIC_URL + "/Images/Hybrid-agro.jpg",
       icon: "🗄️"
     },
     {
       id: 2,
-      title: "Web Development",
-      description: "Building responsive and modern web applications with cutting-edge technologies.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop",
+      title: "Team RSSP",
+      description: "Rockford Silk Screen Process can handle all your custom printing needs from small printed quantities to large commercial printing.",
+      image: process.env.PUBLIC_URL + "Images/rssp-only-exmpl.png",
       icon: "💻"
     },
     {
       id: 3,
-      title: "Mobile Apps",
-      description: "Creating beautiful and intuitive mobile experiences for iOS and Android.",
-      image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=300&fit=crop",
+      title: "Senior Helper",
+      description: "We make wrapping your vehicle simple and seamless. Our process includes four key stages — Process, Design, Production, and Installation — ensuring every detail is handled with precision",
+      image: process.env.PUBLIC_URL + "Images/purple-partial-w.png",
       icon: "📱"
     },
     {
       id: 4,
-      title: "UI/UX Design",
-      description: "Designing user-centered interfaces with focus on usability and aesthetics.",
-      image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=300&fit=crop",
+      title: "Jo Malone - Middle East Region ",
+      description: "Jo Malone London is a British lifestyle brand known for its unique fragrance portfolio and luxury products for the bath, body and home.",
+      image: process.env.PUBLIC_URL + "Images/Jo-Malone.png",
       icon: "🎨"
     },
     {
       id: 5,
-      title: "Cloud Solutions",
-      description: "Implementing scalable cloud infrastructure and deployment strategies.",
-      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop",
+      title: "Kilian Paris - EMEA Region",
+      description: "kilian hennessy continues to create unexpected products that embody ultimate sophistication and timeless luxury.",
+      image: process.env.PUBLIC_URL + "Images/Kilian_paris.png",
       icon: "☁️"
     },
     {
       id: 6,
-      title: "E-Commerce",
-      description: "Building complete e-commerce solutions with payment integration.",
-      image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=400&h=300&fit=crop",
+      title: "NextNow - Africa",
+      description: "A World-class African E-hailing Company NextNow.Africa. As every other mobility solution provider across the world is securing its own continent so is Africa not going to be left behind. ",
+      image: process.env.PUBLIC_URL + "Images/nextnow.svg",
       icon: "🛒"
     },
     {
       id: 7,
-      title: "API Development",
-      description: "Creating robust and scalable RESTful APIs for various applications.",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop",
+      title: "Flex Home",
+      description: "We help you customize your wrap, create a tailored design, produce it with high-quality materials, and complete the installation efficiently for a professional finish.",
+      image: process.env.PUBLIC_URL + "Images/Flex-home.jpg",
       icon: "🔌"
     },
     {
       id: 8,
-      title: "DevOps",
-      description: "Setting up CI/CD pipelines and automated deployment workflows.",
-      image: "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=400&h=300&fit=crop",
+      title: "Clinique - Italy",
+      description: "With 55+ years of dermatological expertise, Clinique is one of the most trusted brands in the world.Dermatologist guided, allergy tested, and 100% fragrance free. In service of all skin.",
+      image: process.env.PUBLIC_URL + "Images/Clinique.png",
       icon: "⚙️"
     },
     {
       id: 9,
-      title: "Consulting",
-      description: "Providing expert technical consulting and code review services.",
-      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=400&h=300&fit=crop",
+      title: "MAC Cosmetic - UAE",
+      description: "Site Offering more than 100 shades of professional quality cosmetics for All Ages, All Races, and All Genders. Free shipping available.",
+      image: process.env.PUBLIC_URL + "Images/mac.png",
       icon: "💼"
     }
   ];
@@ -158,7 +158,7 @@ const ThreeCardCarousel = () => {
                               <div className="card-body">
                                 <h3 className="card-title">{card.title}</h3>
                                 <p className="card-description">{card.description}</p>
-                                <button className="card-button">Learn More →</button>
+                                <a className="card-button" href ="https://hybrid-ag.com/" target='blank'>Learn More →</a>
                               </div>
                             </div>
                           </div>
