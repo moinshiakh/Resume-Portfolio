@@ -22,63 +22,73 @@ const ThreeCardCarousel = () => {
       title: "Hybrid Agro",
       description: "Hybrid is the result of two great companies, combining to serve the Agriculture Industry. The other, solidified in digital print, technology, branding, and marketing strategy. ",
       image: process.env.PUBLIC_URL + "/Images/Hybrid-agro.jpg",
-      icon: "🗄️"
+      icon: "🗄️",
+      More :<a className="card-button" href ="https://hybrid-ag.com/" target='blank'>Learn More →</a>,
+
     },
     {
       id: 2,
       title: "Team RSSP",
       description: "Rockford Silk Screen Process can handle all your custom printing needs from small printed quantities to large commercial printing.",
       image: process.env.PUBLIC_URL + "Images/rssp-only-exmpl.png",
-      icon: "💻"
+      icon: "💻",
+      More :<a className="card-button" href ="https://teamrssp.com/" target='blank'>Learn More →</a>,
     },
     {
       id: 3,
       title: "Senior Helper",
       description: "We make wrapping your vehicle simple and seamless. Our process includes four key stages — Process, Design, Production, and Installation — ensuring every detail is handled with precision",
       image: process.env.PUBLIC_URL + "Images/purple-partial-w.png",
-      icon: "📱"
+      icon: "📱",
+      More :<a className="card-button" href ="https://seniorhelpers.marketing/" target='blank'>Learn More →</a>,
     },
     {
       id: 4,
       title: "Jo Malone - Middle East Region ",
       description: "Jo Malone London is a British lifestyle brand known for its unique fragrance portfolio and luxury products for the bath, body and home.",
       image: process.env.PUBLIC_URL + "Images/Jo-Malone.png",
-      icon: "🎨"
+      icon: "🎨",
+      More :<a className="card-button" href ="https://www.jomalone-qa.com/" target='blank'>Learn More →</a>,
     },
     {
       id: 5,
       title: "Kilian Paris - EMEA Region",
       description: "kilian hennessy continues to create unexpected products that embody ultimate sophistication and timeless luxury.",
       image: process.env.PUBLIC_URL + "Images/Kilian_paris.png",
-      icon: "☁️"
+      icon: "☁️",
+      More :<a className="card-button" href ="https://www.bykilian.com/" target='blank'>Learn More →</a>,
     },
     {
       id: 6,
       title: "NextNow - Africa",
       description: "A World-class African E-hailing Company NextNow.Africa. As every other mobility solution provider across the world is securing its own continent so is Africa not going to be left behind. ",
       image: process.env.PUBLIC_URL + "Images/nextnow.svg",
-      icon: "🛒"
+      icon: "🛒",
+      More :<a className="card-button" href ="https://nextnow.africa/" target='blank'>Learn More →</a>,
     },
     {
       id: 7,
       title: "Flex Home",
       description: "We help you customize your wrap, create a tailored design, produce it with high-quality materials, and complete the installation efficiently for a professional finish.",
       image: process.env.PUBLIC_URL + "Images/Flex-home.jpg",
-      icon: "🔌"
+      icon: "🔌",
+      More :<a className="card-button" href ="http://flexhome.store/" target='blank'>Learn More →</a>,
     },
     {
       id: 8,
       title: "Clinique - Italy",
       description: "With 55+ years of dermatological expertise, Clinique is one of the most trusted brands in the world.Dermatologist guided, allergy tested, and 100% fragrance free. In service of all skin.",
       image: process.env.PUBLIC_URL + "Images/Clinique.png",
-      icon: "⚙️"
+      icon: "⚙️",
+      More :<a className="card-button" href ="https://www.cliniqueitaly.it//" target='blank'>Learn More →</a>,
     },
     {
       id: 9,
       title: "MAC Cosmetic - UAE",
       description: "Site Offering more than 100 shades of professional quality cosmetics for All Ages, All Races, and All Genders. Free shipping available.",
       image: process.env.PUBLIC_URL + "Images/mac.png",
-      icon: "💼"
+      icon: "💼",
+      More :<a className="card-button" href ="https://www.maccosmetics.ae/" target='blank'>Learn More →</a>,
     }
   ];
 
@@ -158,7 +168,8 @@ const ThreeCardCarousel = () => {
                               <div className="card-body">
                                 <h3 className="card-title">{card.title}</h3>
                                 <p className="card-description">{card.description}</p>
-                                <a className="card-button" href ="https://hybrid-ag.com/" target='blank'>Learn More →</a>
+                               
+                                {card.More}
                               </div>
                             </div>
                           </div>
